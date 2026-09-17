@@ -1,0 +1,104 @@
+<!doctype html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#000"><title>VOLTIX — Fuel A Brighter You</title>
+<style>
+:root{--ease:cubic-bezier(.16,1,.3,1);--ease-soft:cubic-bezier(.4,0,.2,1)}*{box-sizing:border-box}html{scroll-behavior:smooth;background:#000}body{margin:0;background:#050505;color:#fff;font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;overflow-x:hidden;-webkit-tap-highlight-color:transparent}a{color:inherit;text-decoration:none}.nav{position:fixed;z-index:20;top:0;left:0;right:0;padding:calc(15px + env(safe-area-inset-top)) 5vw 15px;display:flex;align-items:center;justify-content:space-between;background:#0008;backdrop-filter:blur(16px);border-bottom:1px solid #fff1;transition:padding .45s var(--ease),background-color .45s var(--ease),border-color .45s var(--ease),box-shadow .45s var(--ease)}.nav.scrolled{padding-top:calc(9px + env(safe-area-inset-top));padding-bottom:9px;background:#000c;border-bottom-color:#fff2;box-shadow:0 10px 30px -10px #000a}.logo{font-size:27px;font-weight:900}.logo span,.pink{color:#ff0055}.links{display:flex;gap:28px;font-size:13px;color:#bbb}.links a{position:relative;padding:2px 0;transition:color .35s var(--ease-soft)}.links a:after{content:"";position:absolute;left:0;right:100%;bottom:-2px;height:1px;background:#ff0055;transition:right .4s var(--ease)}.links a:hover{color:#fff}.links a:hover:after{right:0}.shop,.btn{border:1px solid #ff0055;border-radius:99px;padding:12px 22px;box-shadow:0 0 25px #ff005533;transition:transform .45s var(--ease),box-shadow .45s var(--ease),background-color .45s var(--ease)}.shop:hover,.btn:hover{transform:translateY(-2px);box-shadow:0 8px 32px -4px #ff005566;background:#ff005512}.shop:active,.btn:active{transform:translateY(0) scale(.98);transition-duration:.15s}.menu{display:none;background:#111;color:#fff;border:1px solid #fff2;border-radius:50%;width:44px;height:44px;transition:background-color .3s var(--ease-soft),transform .3s var(--ease)}.menu:active{transform:scale(.92)}.mobile{display:none}.hero{min-height:100svh;padding:120px 5vw 45px;position:relative;display:grid;grid-template-columns:43% 57%;align-items:center;background:radial-gradient(circle at 67% 52%,#ff00552b,transparent 33%),#030303}.copy{z-index:3}.eyebrow{font-size:11px;letter-spacing:5px;color:#999;margin-bottom:20px}.hero h1{font-size:clamp(52px,7vw,105px);line-height:.84;letter-spacing:-.065em;margin:0;font-weight:900}.copy p{max-width:510px;color:#aaa;line-height:1.7;font-size:15px;margin:26px 0}.btn{display:inline-flex;gap:16px;font-weight:700}.stats{display:flex;margin-top:38px}.stat{padding:0 23px;border-left:1px solid #fff2}.stat:first-child{padding-left:0;border:0}.stat b{font-size:25px;display:block}.stat small{color:#888;font-size:10px;letter-spacing:1px}.stage{height:min(720px,82svh);position:relative;z-index:2}.stage canvas{width:100%;height:100%;display:block;touch-action:pan-y}.hint{position:absolute;bottom:3%;left:50%;transform:translateX(-50%);font-size:9px;letter-spacing:2px;color:#777;white-space:nowrap}.flavors{position:absolute;z-index:5;right:3vw;top:53%;transform:translateY(-50%);display:grid;gap:10px;width:240px}.flavor{display:flex;align-items:center;gap:12px;padding:10px;border:1px solid #fff2;background:#050505d9;border-radius:14px;cursor:pointer;transition:border-color .45s var(--ease),transform .45s var(--ease),box-shadow .45s var(--ease),background-color .45s var(--ease)}.flavor.active,.flavor:hover{border-color:#ff0055;transform:translateX(-5px);box-shadow:0 0 25px #ff005522}.flavor.active{background:#0a0508}.mini{width:28px;height:62px;border-radius:7px;background:linear-gradient(90deg,#050505,var(--c),#111);transition:background .5s var(--ease-soft)}.flavor b{font-size:11px}.flavor small{display:block;color:#777;font-size:9px;margin-top:4px}.marquee{overflow:hidden;white-space:nowrap;border-block:1px solid #fff1;padding:22px 0}.track{display:inline-block;font-size:58px;font-weight:900;letter-spacing:-4px;animation:m 26s linear infinite;will-change:transform}.track span{color:#ff0055;margin:0 35px}@keyframes m{to{transform:translateX(-50%)}}section{padding:110px 5vw}.wrap{max-width:1200px;margin:auto}.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:45px}.head h2,.story h2{font-size:clamp(45px,6vw,78px);line-height:.88;letter-spacing:-.06em;margin:0;font-weight:900}.head p,.story p{max-width:430px;color:#888;line-height:1.7}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{height:460px;border:1px solid #fff1;border-radius:24px;position:relative;overflow:hidden;padding:20px;background:radial-gradient(circle at 50% 40%,color-mix(in srgb,var(--c),transparent 75%),transparent 42%),#0b0b0d;transition:transform .55s var(--ease),border-color .55s var(--ease),box-shadow .55s var(--ease)}.card:hover{transform:translateY(-8px);border-color:color-mix(in srgb,var(--c),transparent 30%);box-shadow:0 25px 50px -20px color-mix(in srgb,var(--c),transparent 45%)}.can{position:absolute;left:50%;top:43%;width:92px;height:265px;transform:translate(-50%,-50%) rotate(10deg);border-radius:23px;background:linear-gradient(90deg,#050505,var(--c),#080808);box-shadow:0 25px 70px color-mix(in srgb,var(--c),transparent 55%);animation:f 5s ease-in-out infinite}.can:after{content:"VOLTIX";position:absolute;top:100px;left:-8px;width:108px;text-align:center;font-weight:900;font-size:16px;transform:rotate(90deg)}@keyframes f{50%{transform:translate(-50%,-57%) rotate(5deg)}}.info{position:absolute;bottom:20px;transition:transform .55s var(--ease)}.card:hover .info{transform:translateY(-4px)}.info small{color:#777;font-size:9px}.info h3{margin:7px 0;font-size:22px}.info p{margin:0;color:#999;font-size:12px}.story{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.benefits{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.benefit{padding:23px;border:1px solid #fff1;border-radius:17px;background:#090909}.benefit b{color:#ff0055;font-size:11px}.benefit h3{margin:8px 0}.benefit p{font-size:12px;margin:0}.faq{max-width:800px}.item{border-top:1px solid #fff1}.q{width:100%;padding:22px 0;background:none;border:0;color:#fff;display:flex;justify-content:space-between;align-items:center;text-align:left;font-weight:700;cursor:pointer;transition:color .35s var(--ease-soft)}.q:hover{color:#ff0055}.q span{display:inline-block;transition:transform .45s var(--ease);color:#ff0055;font-weight:400}.item.open .q span{transform:rotate(135deg)}.ans{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s var(--ease);color:#888;line-height:1.7;font-size:13px}.ans>div{overflow:hidden;opacity:0;transition:opacity .35s var(--ease-soft) 0s}.item.open .ans{grid-template-rows:1fr}.item.open .ans>div{opacity:1;transition:opacity .4s var(--ease-soft) .1s}.cta{min-height:65svh;display:grid;place-items:center;text-align:center;background:radial-gradient(circle,#61082e35,transparent 50%)}.cta h2{font-size:clamp(60px,10vw,120px);line-height:.82;letter-spacing:-.07em;margin:0}.cta p{color:#888;max-width:500px;line-height:1.7;margin:25px auto}footer{padding:30px 5vw calc(30px + env(safe-area-inset-bottom));border-top:1px solid #fff1;color:#666;font-size:11px;display:flex;justify-content:space-between}
+@media(max-width:850px){.links,.nav>.shop{display:none}.menu{display:block}.mobile{position:fixed;inset:0;z-index:15;background:#050505;display:flex;flex-direction:column;padding:120px 8vw 40px;opacity:0;visibility:hidden;transform:translateY(-14px);transition:opacity .4s var(--ease-soft),transform .5s var(--ease),visibility 0s linear .5s}.mobile.open{opacity:1;visibility:visible;transform:translateY(0);transition:opacity .4s var(--ease-soft),transform .5s var(--ease),visibility 0s}.mobile a{font-size:40px;font-weight:900;padding:14px 0;border-bottom:1px solid #fff1;opacity:0;transform:translateY(10px);transition:opacity .5s var(--ease-soft),transform .5s var(--ease)}.mobile.open a{opacity:1;transform:translateY(0)}.mobile.open a:nth-child(1){transition-delay:.08s}.mobile.open a:nth-child(2){transition-delay:.13s}.mobile.open a:nth-child(3){transition-delay:.18s}.mobile.open a:nth-child(4){transition-delay:.23s}.mobile.open a:nth-child(5){transition-delay:.28s}.hero{display:block;padding:125px 5vw 30px}.hero h1{font-size:16vw}.stage{height:52svh;min-height:380px}.flavors{display:none}.stats{margin-top:28px}.stat{padding:0 14px}.stat b{font-size:20px}.track{font-size:42px}.products{grid-template-columns:1fr}.card{height:430px}.story{grid-template-columns:1fr;gap:35px}.head{display:block}.head p{margin-top:15px}.benefits{grid-template-columns:1fr}section{padding:80px 5vw}footer{display:block;line-height:2}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
+</style></head><body>
+<nav class="nav"><a class="logo" href="#home">VOLT<span>IX</span></a><div class="links"><a href="#home">Home</a><a href="#products">Products</a><a href="#story">Our Story</a><a href="#nutrition">Nutrition</a><a href="#faq">FAQ</a></div><a class="shop" href="#products">Shop Now</a><button class="menu" id="menu">☰</button></nav>
+<div class="mobile" id="mobile"><a href="#home">Home</a><a href="#products">Products</a><a href="#story">Our Story</a><a href="#nutrition">Nutrition</a><a href="#faq">FAQ</a><a href="#products">Shop Now →</a></div>
+<header class="hero" id="home"><div class="copy"><div class="eyebrow">FUEL A BRIGHTER YOU</div><h1>MORE<br><span class="pink">ENERGY</span><br>BIGGER<br>POSSIBILITIES</h1><p>VOLTIX is a fictional energy-drink concept built for a premium digital experience — bold flavor, cinematic visuals and futuristic energy.</p><a class="btn" href="#products">Explore Products →</a><div class="stats"><div class="stat"><b>0</b><small>SUGAR</small></div><div class="stat"><b>200MG</b><small>CAFFEINE</small></div><div class="stat"><b>100%</b><small>FOCUS</small></div></div></div>
+<div class="stage" id="stage"><div class="hint">SWIPE TO ROTATE • AUTO ROTATION</div></div>
+<div class="flavors"><div class="flavor active" data-i="0"><i class="mini" style="--c:#ff0055"></i><div><b>BERRY BLAST</b><small>Bold. Refreshing. Powerful.</small></div></div><div class="flavor" data-i="1"><i class="mini" style="--c:#ffd000"></i><div><b>CITRUS RUSH</b><small>Zesty Energy. All Day.</small></div></div><div class="flavor" data-i="2"><i class="mini" style="--c:#ff7518"></i><div><b>MANGO STORM</b><small>Tropical Fuel. No Limits.</small></div></div><div class="flavor" data-i="3"><i class="mini" style="--c:#13cfff"></i><div><b>ICE MINT</b><small>Cool Mind. High Performance.</small></div></div></div></header>
+<div class="marquee"><div class="track">CHARGE <span>FUEL</span> REPEAT — CHARGE <span>FUEL</span> REPEAT — </div></div>
+<section id="products"><div class="wrap"><div class="head"><h2>Choose your fuel.</h2><p>Four flavors. One mission. Pick the can that matches your energy.</p></div><div class="products"><article class="card" style="--c:#ff0055"><div class="can"></div><div class="info"><small>01 / SIGNATURE</small><h3>Berry Blast</h3><p>Bold • Fruity • Zero Sugar</p></div></article><article class="card" style="--c:#ffd000"><div class="can"></div><div class="info"><small>02 / CITRUS</small><h3>Citrus Rush</h3><p>Tangy • Fresh • High Energy</p></div></article><article class="card" style="--c:#ff7518"><div class="can"></div><div class="info"><small>03 / TROPICAL</small><h3>Mango Storm</h3><p>Tropical • Smooth • No Limits</p></div></article><article class="card" style="--c:#13cfff"><div class="can"></div><div class="info"><small>04 / COOL</small><h3>Ice Mint</h3><p>Cool • Crisp • Maximum Focus</p></div></article></div></div></section>
+<section id="story"><div class="wrap story"><div><div class="eyebrow">ABOUT VOLTIX</div><h2>BUILT FOR<br>A BRIGHTER<br>TOMORROW.</h2></div><div><p>We believe energy is more than a drink — it is a mindset. VOLTIX is a fictional concept brand designed around a high-impact, motion-first experience.</p><div class="benefits"><div class="benefit"><b>01</b><h3>More Energy</h3><p>Push beyond limits.</p></div><div class="benefit"><b>02</b><h3>Sharpen Focus</h3><p>Stay in the zone.</p></div><div class="benefit"><b>03</b><h3>Zero Sugar</h3><p>Fuel without the guilt.</p></div><div class="benefit"><b>04</b><h3>Live Bolder</h3><p>Make every move count.</p></div></div></div></div></section>
+<section id="nutrition"><div class="wrap"><div class="head"><h2>Made to move.</h2><p>330 ML • 200 MG CAFFEINE • 0G ADDED SUGAR • 4 FLAVORS</p></div></div></section>
+<section id="faq"><div class="wrap faq"><div class="head"><h2>FAQ.</h2></div><div class="item"><button class="q">Is VOLTIX real? <span>＋</span></button><div class="ans"><div>No. VOLTIX is a fictional product concept made for a portfolio/demo website.</div></div></div><div class="item"><button class="q">Can I rotate the can? <span>＋</span></button><div class="ans"><div>Yes. Swipe or drag the main 3D can. It also has automatic slow rotation and floating animation.</div></div></div><div class="item"><button class="q">Is it optimized for iPhone? <span>＋</span></button><div class="ans"><div>Yes. It uses mobile-first sizing, iPhone safe-area spacing and touch-friendly controls.</div></div></div></div></section>
+<section class="cta"><div><div class="eyebrow">READY?</div><h2>CHARGE.<br><span class="pink">FUEL.</span><br>REPEAT.</h2><p>Experience the fictional VOLTIX concept — a cinematic interactive product website.</p><a class="btn" href="#products">SHOP VOLTIX →</a></div></section><footer><span>© 2026 VOLTIX CONCEPT</span><span>DRINK DIFFERENT • LIVE BOLDER</span></footer>
+<script type="module">
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js";
+const mount=document.getElementById("stage"),scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(38,1,.1,100),renderer=new THREE.WebGLRenderer({alpha:true,antialias:true,powerPreference:"high-performance"});
+camera.position.z=5.5;renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.25;mount.prepend(renderer.domElement);
+const group=new THREE.Group();scene.add(group);
+const cvs=document.createElement("canvas");cvs.width=cvs.height=1024;const ctx=cvs.getContext("2d"),tex=new THREE.CanvasTexture(cvs);tex.colorSpace=THREE.SRGBColorSpace;
+const colors=["#ff0055","#ffd000","#ff7518","#13cfff"],names=["BERRY BLAST","CITRUS RUSH","MANGO STORM","ICE MINT"];
+function label(c,n){ctx.clearRect(0,0,1024,1024);let g=ctx.createLinearGradient(0,0,1024,1024);g.addColorStop(0,"#050507");g.addColorStop(.5,"#180811");g.addColorStop(1,"#030305");ctx.fillStyle=g;ctx.fillRect(0,0,1024,1024);ctx.save();ctx.translate(512,512);ctx.fillStyle=c;ctx.shadowColor=c;ctx.shadowBlur=45;ctx.beginPath();ctx.moveTo(-65,-330);ctx.lineTo(90,-20);ctx.lineTo(15,5);ctx.lineTo(95,330);ctx.lineTo(-60,45);ctx.lineTo(10,20);ctx.closePath();ctx.fill();ctx.restore();ctx.save();ctx.translate(512,450);ctx.rotate(-Math.PI/2);ctx.font="900 130px Arial";ctx.fillStyle="#fff";ctx.textAlign="center";ctx.fillText("VOLTIX",0,35);ctx.restore();ctx.font="900 38px Arial";ctx.fillStyle=c;ctx.textAlign="center";ctx.fillText(n,512,720);ctx.font="500 24px Arial";ctx.fillStyle="#ccc";ctx.fillText("ZERO SUGAR • MAX FOCUS • 330 ML",512,770);tex.needsUpdate=true}
+label(colors[0],names[0]);
+const body=new THREE.Mesh(new THREE.CylinderGeometry(.82,.82,2.8,64,1,true),new THREE.MeshStandardMaterial({map:tex,metalness:.85,roughness:.23}));group.add(body);
+const metal=new THREE.MeshStandardMaterial({color:0xd9d9d9,metalness:.95,roughness:.13});let top=new THREE.Mesh(new THREE.CylinderGeometry(.77,.82,.1,64),metal),bot=new THREE.Mesh(new THREE.CylinderGeometry(.82,.76,.11,64),metal);top.position.y=1.45;bot.position.y=-1.45;group.add(top,bot);
+const ringMat=new THREE.MeshBasicMaterial({color:colors[0]}),ring=new THREE.Mesh(new THREE.TorusGeometry(1.35,.014,12,96),ringMat);ring.rotation.x=Math.PI/2.25;group.add(ring);
+const pc=55,pos=new Float32Array(pc*3);for(let i=0;i<pc*3;i+=3){pos[i]=(Math.random()-.5)*4.5;pos[i+1]=(Math.random()-.5)*5;pos[i+2]=(Math.random()-.5)*2.5}const pg=new THREE.BufferGeometry();pg.setAttribute("position",new THREE.BufferAttribute(pos,3));const pm=new THREE.PointsMaterial({color:colors[0],size:.035,transparent:true,opacity:.75}),particles=new THREE.Points(pg,pm);scene.add(particles);
+scene.add(new THREE.AmbientLight(0xffffff,.55));const light=new THREE.PointLight(colors[0],5,8);light.position.set(-2.5,1,1.5);scene.add(light);const cyan=new THREE.PointLight(0x00e5ff,2,8);cyan.position.set(2.5,-1,1.5);scene.add(cyan);const topLight=new THREE.DirectionalLight(0xffffff,2.3);topLight.position.set(0,5,3);scene.add(topLight);
+let target=0,current=0,drag=false,last=0,vel=0,idleSpin=.28;
+mount.addEventListener("pointerdown",e=>{drag=true;last=e.clientX;vel=0;mount.setPointerCapture(e.pointerId)});
+mount.addEventListener("pointermove",e=>{if(drag){const d=(e.clientX-last)*.0042;target+=d;vel=d;last=e.clientX}});
+addEventListener("pointerup",()=>drag=false);addEventListener("pointercancel",()=>drag=false);
+
+// smooth crossfade between flavor colors instead of instant jumps
+const activeColor=new THREE.Color(colors[0]),fromColor=new THREE.Color(colors[0]),toColor=new THREE.Color(colors[0]);
+let colorT=1,colorDur=.6;
+function setFlavor(i){
+  fromColor.copy(activeColor);toColor.set(colors[i]);colorT=0;
+  label(colors[i],names[i]);
+  document.querySelectorAll(".flavor").forEach((x,n)=>x.classList.toggle("active",n===i));
+}
+document.querySelectorAll(".flavor").forEach((el,i)=>el.addEventListener("click",()=>setFlavor(i)));
+
+function resize(){let w=mount.clientWidth,h=mount.clientHeight;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
+addEventListener("resize",resize);resize();
+
+let clock=new THREE.Clock();
+function animate(){
+  requestAnimationFrame(animate);
+  const dt=Math.min(clock.getDelta(),.05),t=clock.getElapsedTime();
+
+  if(!drag){
+    target+=idleSpin*dt;
+    vel*=.94; // residual momentum decays smoothly after release
+  }else{
+    vel=0;
+  }
+  // frame-rate independent damping toward target rotation
+  const damp=1-Math.pow(.0009,dt);
+  current+=(target-current)*damp;
+
+  group.rotation.y=current;
+  group.rotation.z=Math.sin(t*.5)*.032;
+  group.position.y=Math.sin(t*1.5)*.085;
+  ring.rotation.z=t*.4;
+  particles.rotation.y=t*.035;
+
+  if(colorT<1){
+    colorT=Math.min(1,colorT+dt/colorDur);
+    const e=1-Math.pow(1-colorT,3); // ease-out cubic
+    activeColor.copy(fromColor).lerp(toColor,e);
+    ringMat.color.copy(activeColor);
+    pm.color.copy(activeColor);
+    light.color.copy(activeColor);
+  }
+
+  renderer.render(scene,camera);
+}
+animate();
+
+// nav shrink-on-scroll
+const navEl=document.querySelector(".nav");
+let scrollTicking=false;
+addEventListener("scroll",()=>{
+  if(!scrollTicking){
+    requestAnimationFrame(()=>{navEl.classList.toggle("scrolled",scrollY>10);scrollTicking=false});
+    scrollTicking=true;
+  }
+},{passive:true});
+
+const mobileMenu=document.getElementById("mobile");
+document.getElementById("menu").onclick=()=>mobileMenu.classList.toggle("open");
+document.querySelectorAll(".mobile a").forEach(a=>a.onclick=()=>mobileMenu.classList.remove("open"));
+document.querySelectorAll(".q").forEach(q=>q.onclick=()=>{
+  const item=q.parentElement,wasOpen=item.classList.contains("open");
+  document.querySelectorAll(".item.open").forEach(o=>o!==item&&o.classList.remove("open"));
+  item.classList.toggle("open",!wasOpen);
+});
+</script></body></html>
